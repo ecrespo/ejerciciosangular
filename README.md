@@ -6,6 +6,7 @@ La idea es tener  un contenedor Docker con node.js para probar los ejercicios  d
 ## 2. Estructura de directorios
 
 Se tiene la siguiente estructura de directorios
+`
 ejerciciosangular
 ├── Dockerfile
 ├── README.md
@@ -19,6 +20,7 @@ ejerciciosangular
         ├── index.html
         ├── node.svg
         └── seraph
+`
 
 
 ## 3. Uso de Docker
