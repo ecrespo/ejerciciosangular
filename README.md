@@ -1,12 +1,12 @@
-# Ejercicios de Angular por medio de Node.js
+# Ejercicios de Angular.js usando de Node.js
 
 ## 1. Introducción
-La idea es tener  un contenedor Docker con node.js para probar los ejercicios  de angular.js
+La idea es tener un contenedor Docker con node.js para probar los ejercicios de Angular.js
 
 ## 2. Estructura de directorios
 
 Se tiene la siguiente estructura de directorios
-`
+```
 ejerciciosangular
 ├── Dockerfile
 ├── README.md
@@ -20,8 +20,7 @@ ejerciciosangular
         ├── index.html
         ├── node.svg
         └── seraph
-`
-
+```
 
 ## 3. Uso de Docker
 
