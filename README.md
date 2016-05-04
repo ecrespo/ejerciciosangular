@@ -7,7 +7,7 @@ La idea es tener un contenedor Docker con node.js para probar los ejercicios de 
 
 Se tiene la siguiente estructura de directorios
 ```
-ejerciciosangular
+ejerciciosangular/
 ├── Dockerfile
 ├── README.md
 └── src
@@ -16,13 +16,31 @@ ejerciciosangular
     ├── package.json
     ├── Procfile
     └── public
+        ├── chinuxparibus
+        │   └── index.html
         ├── dayifer
+        │   └── index.html
         ├── index.html
         ├── node.svg
         └── seraph
+            └── index.html
+```
+## 3. Ejecución de node.js
+
+Para visualizar las páginas vía node se ejecuta el siguiente comando  el directorio src/:
++ La primera vez se ejecuta npm para que baje los módulos necesarios
+```
+npm install
+```
++ Para ejecutar el servidor en el puerto 5000:
+```
+node index.js
 ```
 
-## 3. Uso de Docker
+## 4. Directorio de trabajo.
+Los colaboradores Jhony Grillet, Dayana Ovalle y mi persona tienen un directorio en public donde se guardarán los ejercicios que cada quien haga sobre angular.js.
 
-### 3.1. Archivo Dockerfile
+## 4. Uso de Docker
+
+### 4.1. Archivo Dockerfile
 
