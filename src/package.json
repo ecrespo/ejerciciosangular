@@ -1,7 +1,7 @@
 {
-  "name": "node-js-sample",
-  "version": "0.2.0",
-  "description": "A sample Node.js app using Express 4",
+  "name": "ejerciciosangular",
+  "version": "0.1.0",
+  "description": "Uso de node.js con express para mostrar ejercicios de angular.js",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -14,16 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
+    "url": "https://github.com/ecrespo/ejerciciosangular.git"
   },
   "keywords": [
     "node",
     "heroku",
     "express"
   ],
-  "author": "Mark Pundsack",
+  "author": "Ernesto Crespo",
   "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
+    "Dayana Ovalle <Dayanac.ovalle@gmail.com> ",
+    "Jhony Grillet <grilletjhony@gmail.com>"
   ],
-  "license": "MIT"
+  "license": "GPLv3"
 }
